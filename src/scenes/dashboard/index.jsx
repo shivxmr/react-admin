@@ -15,6 +15,7 @@ import { tokens } from "../../theme";
 import Textbox from "../../components/ui/Textbox";
 import ContainedButtons from "../../components/ui/Button";
 import FullWidthTabs from "../../components/ui/TabPanel";
+import CodeContainer from "../../components/ui/Code";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -51,6 +52,7 @@ const Dashboard = () => {
       </Box>
 
       <FullWidthTabs />
+      <CodeContainer />
 
 
       {/* GRID & CHARTS */}

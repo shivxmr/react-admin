@@ -4,6 +4,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import EnhancedTable from "./Table";
+import BarsDataset from "./BarChart";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -59,10 +61,10 @@ export default function BasicTabs() {
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
-        Table
+        <EnhancedTable />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Chart
+        <BarsDataset />
       </CustomTabPanel>
       {/* <CustomTabPanel value={value} index={2}>
         Item Three
