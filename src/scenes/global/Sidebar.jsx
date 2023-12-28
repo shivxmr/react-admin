@@ -130,16 +130,16 @@ const Sidebar = () => {
                             color={colors.grey[300]}
                             sx={{ m: "15px 0 5px 20px" }}
                         >
-                            Data
+                            Chat 1 Heading
                         </Typography>
                         <Item
-                            title="Manage Team"
+                            title="Chat 1"
                             to="/team"
                             icon={<PeopleOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
-                        <Item
+                        {/* <Item
                             title="Contacts Information"
                             to="/contacts"
                             icon={<ContactsOutlinedIcon />}
@@ -152,7 +152,7 @@ const Sidebar = () => {
                             icon={<ReceiptOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
+                        /> */}
 
 
 
@@ -162,16 +162,16 @@ const Sidebar = () => {
                             color={colors.grey[300]}
                             sx={{ m: "15px 0 5px 20px" }}
                         >
-                            Charts
+                            Chat 2 Heading
                         </Typography>
                         <Item
-                            title="Bar Chart"
+                            title="Chat 2"
                             to="/bar"
                             icon={<BarChartOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
-                        <Item
+                        {/* <Item
                             title="Pie Chart"
                             to="/pie"
                             icon={<PieChartOutlineOutlinedIcon />}
@@ -191,7 +191,7 @@ const Sidebar = () => {
                             icon={<MapOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
+                        /> */}
 
 
 
@@ -201,10 +201,10 @@ const Sidebar = () => {
                             color={colors.grey[300]}
                             sx={{ m: "15px 0 5px 20px" }}
                         >
-                            Pages
+                            Chat 3 Heading
                         </Typography>
                         <Item
-                            title="Profile Form"
+                            title="Chat 3"
                             to="/form"
                             icon={<PersonOutlinedIcon />}
                             selected={selected}
@@ -217,17 +217,13 @@ const Sidebar = () => {
                             selected={selected}
                             setSelected={setSelected}
                         /> */}
-                        <Item
+                        {/* <Item
                             title="FAQ Page"
                             to="/faq"
                             icon={<HelpOutlineOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
-                        />
-
-
-
-
+                        /> */}
 
 
 
