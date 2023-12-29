@@ -16,6 +16,7 @@ import Textbox from "../../components/ui/Textbox";
 import ContainedButtons from "../../components/ui/Button";
 import FullWidthTabs from "../../components/ui/TabPanel";
 import CodeContainer from "../../components/ui/Code";
+import Prompt from "../../components/ui/Prompt";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -52,8 +53,14 @@ const Dashboard = () => {
       </Box>
 
       <FullWidthTabs />
-      <CodeContainer />
 
+      <Box display="flex" justifyContent="space-between" alignItems="center" sx={{ mb: "20px" }}>
+
+
+        <Prompt />
+        <ContainedButtons />
+      </Box>
+      <CodeContainer />
 
       {/* GRID & CHARTS */}
       {/* <Box
