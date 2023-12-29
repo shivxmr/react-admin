@@ -6,8 +6,8 @@ export default function Textbox() {
   return (
     <Box
       sx={{
-        width: 1000,
-        maxWidth: "100%",
+        width: "100vw", // Set width to viewport width
+        paddingX: 1, // 1 unit equals 8px, so 1 unit here means 8px padding
       }}
     >
       <TextField fullWidth label="Enter your query here!" id="fullWidth" />

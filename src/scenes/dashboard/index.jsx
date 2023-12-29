@@ -56,9 +56,7 @@ const Dashboard = () => {
 
       <Box display="flex" justifyContent="space-between" alignItems="center" sx={{ mb: "20px" }}>
 
-
         <Prompt />
-        <ContainedButtons />
       </Box>
       <CodeContainer />
 
