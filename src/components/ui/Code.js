@@ -25,15 +25,15 @@ const CodeContainer = () => {
         multiline
         rows={8}
         variant="outlined"
-        label="Code"
-        defaultValue={`CREATE TABLE employees (\n
-    id INT PRIMARY KEY,\n
-    name VARCHAR(50),\n
-    department VARCHAR(50)\n
+        label="SQL Code"
+        defaultValue={`CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(50)
 );
 
-INSERT INTO employees (id, name, department) VALUES (1, 'John Doe', 'Sales');\n
-INSERT INTO employees (id, name, department) VALUES (2, 'Jane Smith', 'Marketing');\n}`}
+INSERT INTO employees (id, name, department) VALUES (1, 'John Doe', 'Sales');
+INSERT INTO employees (id, name, department) VALUES (2, 'Jane Smith', 'Marketing');}`}
         fullWidth
       />
       <CopyButton variant="contained" onClick={handleCopyClick}>
